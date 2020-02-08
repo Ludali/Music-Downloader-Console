@@ -14,7 +14,7 @@ namespace Music_Downloader_Console
         static List<Json.MusicInfo> SearchResult = new List<Json.MusicInfo>();
         static Json.Setting Setting = new Json.Setting();
         static string ApiUrl = "http://116.85.33.135:3000/";
-        static string cookie = "MUSIC_U=1a3646e3a37f5c384c931fcc4eb7e9007c00e1ab6df303b33b68bd2718a29393128c2500216521a916250eb69e455c827955a739ab43dce1; __remember_me=true; __csrf=8560d32841c4e9ce924cb49eafc654a4";
+        
 
         static void Main(string[] args)
         {
