@@ -13,7 +13,7 @@ namespace Music_Downloader_Console
     {
         static List<Json.MusicInfo> SearchResult = new List<Json.MusicInfo>();
         static Json.Setting Setting = new Json.Setting();
-        static string ApiUrl = "http://116.85.33.135:3000/";
+        static string ApiUrl = "";
         
 
         static void Main(string[] args)
